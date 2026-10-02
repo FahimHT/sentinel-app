@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sentinel — Privacy policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 38rem; margin: 0 auto; padding: 3rem 1rem;
+  }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  .sub { color: #666; margin-top: 0; }
+  h2 { font-size: 1.1rem; margin-top: 2rem; }
+  ul { padding-left: 1.2rem; }
+  footer { margin-top: 3rem; font-size: .9rem; color: #666; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+
+<h1>Privacy policy</h1>
+<p class="sub">Sentinel, by Owl Software Labs · last updated 2 October 2026</p>
+
+<p>
+  Sentinel has no servers and no internet access. Nothing it records is sent to the developer or
+  to anyone else, and there is no account to create. Everything below describes data that stays on
+  your phone.
+</p>
+
+<h2>What the app records</h2>
+<p>
+  While a recording runs, Sentinel records video from the camera you choose and, unless you turn
+  sound off, audio from the microphone. Recordings are saved as video files in the
+  <em>Movies/Sentinel</em> folder on the phone, or on its SD card if you choose that in Settings.
+  Like any video in that folder, they appear in your gallery, and other apps you have given access
+  to your videos can see them.
+</p>
+<p>
+  The app records only while you have started a recording. It never starts one by itself, and a
+  notification is shown for the whole time it records.
+</p>
+<p>
+  It also writes diagnostic log files to its own storage on the phone, to make faults
+  reproducible. They describe what the app did — recordings starting and stopping, settings,
+  errors — and contain no video, no audio and no location.
+</p>
+
+<h2>What it deliberately does not do</h2>
+<ul>
+  <li><strong>No location is recorded.</strong> The app does not ask for location access.</li>
+  <li><strong>Nothing is uploaded.</strong> The app does not request internet access, so it
+      cannot send anything off the phone.</li>
+  <li>There is no analytics, crash reporting, advertising or tracking of any kind.</li>
+</ul>
+
+<h2>Sharing debug data</h2>
+<p>
+  Settings has a <em>Collect Debug Data</em> button for reporting a problem. It builds a zip of the
+  log files, the app's settings and a list of the recording file names and sizes — not the
+  recordings themselves — and opens Android's share sheet. Nothing is sent unless you choose where
+  it goes.
+</p>
+
+<h2>Permissions, and why each exists</h2>
+<ul>
+  <li><strong>Camera</strong> — to record video.</li>
+  <li><strong>Microphone</strong> — to record sound with the video. Turn sound off in Settings and
+      the microphone is not used.</li>
+  <li><strong>Notifications</strong> — for the notification shown while recording, which also
+      carries the button to stop.</li>
+  <li><strong>Foreground service</strong> — to keep recording with the app in the background or
+      the screen off. Android requires the notification above while it does.</li>
+</ul>
+
+<h2 id="delete">Deleting your data</h2>
+<p>
+  Owl Software Labs holds no copy of your data. Everything the app records is on your phone, and
+  you delete it yourself:
+</p>
+<ol>
+  <li><strong>One recording:</strong> delete it in your gallery or file manager, like any
+      video.</li>
+  <li><strong>All recordings:</strong> Settings, then <em>Delete All Recordings</em>. This
+      deletes the recordings this installation of the app made. Any left from an earlier
+      installation are not visible to it, and can be deleted from the gallery.</li>
+  <li><strong>Settings and logs:</strong> uninstall the app, which removes them.</li>
+</ol>
+<p>
+  <strong>Uninstalling does not delete your recordings</strong>, on purpose: footage of an
+  incident should not disappear because the app was removed. They stay in
+  <em>Movies/Sentinel</em> until you delete them.
+</p>
+<p>
+  <strong>What is kept:</strong> nothing else. Deleted data is gone at once, and no other copy
+  exists anywhere.
+</p>
+
+<h2>Recording other people</h2>
+<p>
+  Recordings can include other people, number plates and conversations in the car. Laws on
+  recording video and sound differ between countries; it is up to you to use the app where and
+  how the law allows.
+</p>
+
+<h2>Children</h2>
+<p>
+  The app is a dashcam for drivers and is not directed at children. It collects no personal
+  information from anyone.
+</p>
+
+<h2>Changes</h2>
+<p>
+  If this policy changes, the date at the top changes with it. No change will make the app send
+  data anywhere without asking you first.
+</p>
+
+<footer>
+  <p><a href="index.html">Sentinel</a></p>
+  <p>Questions and requests: <a href="https://github.com/FahimHT/sentinel-app/issues">GitHub issues</a></p>
+</footer>
+
+</body>
+</html>
